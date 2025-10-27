@@ -30,7 +30,7 @@ const features = [
   {
     icon: <Shield className="h-6 w-6 text-rose-400" />,
     title: 'Secure & Compliant',
-    desc: 'Enterprise-grade privacy, consent flows, and audit trails built-in.'
+    desc: 'Data encryption, audit logs, and privacy controls keep you covered.'
   }
 ];
 
@@ -43,7 +43,7 @@ export default function Features() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">Everything your AI team needs</h2>
-          <p className="mt-3 text-slate-300">Plug-and-play building blocks to automate outreach, scheduling, and records — all in one place.</p>
+          <p className="mt-3 text-slate-300">Plug-and-play AI systems to automate your customer engagement, scheduling, and records — all in one place.</p>
         </div>
         <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {features.map((f, i) => (

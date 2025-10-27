@@ -12,10 +12,12 @@ export default function Navbar() {
             </span>
             <span className="text-lg tracking-tight">Nexora AI</span>
           </a>
-          <div className="hidden gap-6 text-sm text-slate-300 md:flex">
+          <div className="hidden items-center gap-6 text-sm text-slate-300 md:flex">
             <a href="#features" className="hover:text-white">Features</a>
             <a href="#solutions" className="hover:text-white">Solutions</a>
-            <a href="#cta" className="hover:text-white">Get Started</a>
+            <a href="#projects" className="hover:text-white">Projects</a>
+            <a href="#about" className="hover:text-white">About</a>
+            <a href="#contact" className="hover:text-white">Contact</a>
           </div>
           <div className="hidden md:block">
             <a href="#cta" className="rounded-lg bg-white px-4 py-2 text-sm font-semibold text-slate-900 transition hover:bg-slate-100">Book a Demo</a>

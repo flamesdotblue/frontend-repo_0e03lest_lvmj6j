@@ -10,10 +10,11 @@ export default function Footer() {
         </div>
         <div className="flex items-center gap-6 text-sm">
           <a href="#features" className="hover:text-white">Features</a>
-          <a href="#cta" className="hover:text-white">Book a demo</a>
-          <a href="#" className="hover:text-white">Privacy</a>
+          <a href="#projects" className="hover:text-white">Projects</a>
+          <a href="#contact" className="hover:text-white">Contact</a>
+          <a href="#" className="hover:text-white">Privacy Policy</a>
         </div>
-        <p className="text-sm">© {new Date().getFullYear()} Nexora AI. All rights reserved.</p>
+        <p className="text-sm">© 2025 Nexora AI. All rights reserved.</p>
       </div>
     </footer>
   );
